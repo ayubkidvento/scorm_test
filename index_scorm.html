@@ -157,44 +157,44 @@
 						console.log('Initialized');
 						var simplifiedObject = window.API.cmi.toJSON();
 						console.log('SIMPLIFY ', simplifiedObject);
-						window.parent.postMessage('INITIALIZED SUCCESSFULLY!', "*");
+						// window.parent.postMessage('INITIALIZED SUCCESSFULLY!');
 						// LMSInitialize.postMessage('INITIALIZED SUCCESSFULLY!');
 					});
 					window.API.on("LMSFinish", () => {
 						console.log('FINISHED');
 						var simplifiedObject = window.API.cmi.toJSON();
 						console.log('SIMPLIFY ', simplifiedObject);
-						window.parent.postMessage('FINISHED SUCCESSFULLY!', "*");
+						// window.parent.postMessage('FINISHED SUCCESSFULLY!');
 						// LMSFinish.postMessage('FINISHED SUCCESSFULLY!');
 					});
 					window.API.on("LMSGetValue", (val) => {
 						console.log('LMS GET VALUE ', val);
-						window.parent.postMessage('LMSGetValue SUCCESSFULLY!' + val, "*");
+						// window.parent.postMessage('LMSGetValue SUCCESSFULLY!');
 						// LMSGetValue.postMessage('LMSGetValue SUCCESSFULLY! '+ val);
 					});
 					window.API.on("LMSSetValue", (x, val) => {
 						console.log('LMS SET VALUE ', x, val);
-						window.parent.postMessage('LMSGetValue SUCCESSFULLY!'+ x + val, "*");
+						// window.parent.postMessage('LMSGetValue SUCCESSFULLY!');
 						// LMSSetValue.postMessage('LMSGetValue SUCCESSFULLY! '+ x + val);
 					});
 					window.API.on("LMSCommit", () => {
 						console.log('LMS COMMIT VALUE');
-						window.parent.postMessage('LMSCommit SUCCESSFULLY!', "*");
+						// window.parent.postMessage('LMSCommit SUCCESSFULLY!');
 						// LMSCommit.postMessage('LMSCommit SUCCESSFULLY!');
 					});
 					window.API.on("LMSGetLastError", () => {
 						console.log('LMS GET LAST ERROR VALUE');
-						window.parent.postMessage('LMSGetLastError ERROR!', "*");
+						// window.parent.postMessage('LMSGetLastError ERROR!');
 						// LMSGetLastError.postMessage('LMSGetLastError ERROR!');
 					});
 					window.API.on("LMSGetErrorString", (val) => {
 						console.log('LMS LMSGetErrorString VALUE ', val);
-						window.parent.postMessage('LMSGetLastError ERROR!' + val, "*");
+						// window.parent.postMessage('LMSGetLastError ERROR!');
 						// LMSGetErrorString.postMessage('LMSGetLastError ERROR!' + val);
 					});
 					window.API.on("LMSGetDiagnostic", (val) => {
 						console.log('LMS LMSGetDiagnostic VALUE ', val);
-						window.parent.postMessage('LMSGetLastError ERROR!' + val, "*");
+						// window.parent.postMessage('LMSGetLastError ERROR!');
 						// LMSGetDiagnostic.postMessage('LMSGetDiagnostic ERROR!' + val);
 					});
 				}, 1);

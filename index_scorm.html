@@ -159,13 +159,16 @@
 						console.log('SIMPLIFY ', simplifiedObject);
 						// window.parent.postMessage('INITIALIZED SUCCESSFULLY!');
 						// LMSInitialize.postMessage('INITIALIZED SUCCESSFULLY!');
+						var obj = {foo: 'BAR'}
+						window.postMessage(JSON.stringify(obj), '*');
 					});
 					window.API.on("LMSFinish", () => {
 						console.log('FINISHED');
 						var simplifiedObject = window.API.cmi.toJSON();
 						console.log('SIMPLIFY ', simplifiedObject);
 						// window.parent.postMessage('FINISHED SUCCESSFULLY!');
-						// LMSFinish.postMessage('FINISHED SUCCESSFULLY!');
+						LMSFinish.postMessage('FINISHED SUCCESSFULLY!');
+						window.postMessage('INITIALIZED', '*', 'RECEIVER')
 					});
 					window.API.on("LMSGetValue", (val) => {
 						console.log('LMS GET VALUE ', val);

@@ -158,25 +158,25 @@ function initializeCP()
 					}
 					document.getElementsByTagName('head')[0].appendChild(script);
 					// window.API.apiLogLevel = 1;
-					window.API.cmi.core.student_id = "10";
-					window.API.cmi.core.student_name = "Ulipsu User";
-					window.API.cmi.core.lesson_mode = "browse";
-					window.API.cmi.core.lesson_status = "browsed";
-					window.API.cmi.core.entry = "resume";
+					// window.API.cmi.core.student_id = "10";
+					// window.API.cmi.core.student_name = "Ulipsu User";
+					// window.API.cmi.core.lesson_mode = "browse";
+					// window.API.cmi.core.lesson_status = "browsed";
+					// window.API.cmi.core.entry = "resume";
 			
-					console.log('window.API ',  JSON.stringify(window.API))
-					console.log('window.API.cmi ', JSON.stringify(window.API.cmi))
-					window.API.on('LMSInitialize', () => { console.log("LMSInitialize"); });
-					window.API.on('LMSFinish', () => { console.log('212 FINISHED'); });
-					window.API.on('LMSGetValue', (val) => { console.log('213 LMSGetValue ' + val); });
-					window.API.on('LMSSetValue', (ele, val) => {
-						console.log(JSON.stringify(window.API.cmi))
-						console.log('214 LMSSetValue ' + ele + ' ' + val); 
-					});
-					window.API.on('LMSCommit', (val) => { console.log('215 LMSCommit'); });
-					window.API.on('LMSGetLastError', () => { console.log('216 LMSGetLastError'); });
-					window.API.on('LMSGetErrorString', (val) => { console.log('217 LMSGetErrorString ' + val); });
-					window.API.on('LMSGetDiagnostic', (val) => { console.log('218 LMSGetDiagnostic ' + val); });
+					// console.log('window.API ',  JSON.stringify(window.API))
+					// console.log('window.API.cmi ', JSON.stringify(window.API.cmi))
+					// window.API.on('LMSInitialize', () => { console.log("LMSInitialize"); });
+					// window.API.on('LMSFinish', () => { console.log('212 FINISHED'); });
+					// window.API.on('LMSGetValue', (val) => { console.log('213 LMSGetValue ' + val); });
+					// window.API.on('LMSSetValue', (ele, val) => {
+					// 	console.log(JSON.stringify(window.API.cmi))
+					// 	console.log('214 LMSSetValue ' + ele + ' ' + val); 
+					// });
+					// window.API.on('LMSCommit', (val) => { console.log('215 LMSCommit'); });
+					// window.API.on('LMSGetLastError', () => { console.log('216 LMSGetLastError'); });
+					// window.API.on('LMSGetErrorString', (val) => { console.log('217 LMSGetErrorString ' + val); });
+					// window.API.on('LMSGetDiagnostic', (val) => { console.log('218 LMSGetDiagnostic ' + val); });
 				},1);
 			},false);
 		})();

@@ -25,7 +25,7 @@
 		</organization>
 	</organizations>
 	<resources>
-		<resource identifier="SCO_ID1_RES" type="webcontent" href="index_scorm.html" adlcp:scormtype="sco">
+		<resource identifier="SCO_ID1_RES" type="webcontent" href="index.html" adlcp:scormtype="sco">
 			
 			<metadata>
 				<schema>ADL SCORM</schema>
@@ -33,11 +33,14 @@
 				<adlcp:location>metadata.xml</adlcp:location> 
 			</metadata>
 			
-			<file href="ar/Mouse.mp3"/>
-		    <file href="index_scorm.html"/>
+			<file href="ar/11005.mp3"/>
+		    <file href="index.html"/>
 			<file href="scormdriver.js"/>
 			<file href="browsersniff.js"/>
 			
+<file href="ar/16644.mp3"/> 
+<file href="ar/16647.mp3"/> 
+<file href="ar/Mouse.mp3"/> 
 <file href="assets/TOC_icons/collapseIcon.png"/> 
 <file href="assets/TOC_icons/expandIcon.png"/> 
 <file href="assets/TOC_icons/photo.png"/> 
@@ -180,35 +183,6 @@
 <file href="assets/js/CPM.js"/> 
 <file href="assets/js/CPXHRLoader.js"/> 
 <file href="assets/js/jquery-3.3.1.min.js"/> 
-<file href="assets/playbar/PlaybarIcons/AudioOff.png"/> 
-<file href="assets/playbar/PlaybarIcons/AudioOn.png"/> 
-<file href="assets/playbar/PlaybarIcons/BackGround.png"/> 
-<file href="assets/playbar/PlaybarIcons/Backward.png"/> 
-<file href="assets/playbar/PlaybarIcons/CC.png"/> 
-<file href="assets/playbar/PlaybarIcons/Color.png"/> 
-<file href="assets/playbar/PlaybarIcons/ColorSmall.png"/> 
-<file href="assets/playbar/PlaybarIcons/Exit.png"/> 
-<file href="assets/playbar/PlaybarIcons/FastForward.png"/> 
-<file href="assets/playbar/PlaybarIcons/FastForward1.png"/> 
-<file href="assets/playbar/PlaybarIcons/FastForward2.png"/> 
-<file href="assets/playbar/PlaybarIcons/Forward.png"/> 
-<file href="assets/playbar/PlaybarIcons/Glow.png"/> 
-<file href="assets/playbar/PlaybarIcons/GlowSmall.png"/> 
-<file href="assets/playbar/PlaybarIcons/Height.png"/> 
-<file href="assets/playbar/PlaybarIcons/InnerStroke.png"/> 
-<file href="assets/playbar/PlaybarIcons/InnerStrokeSmall.png"/> 
-<file href="assets/playbar/PlaybarIcons/Pause.png"/> 
-<file href="assets/playbar/PlaybarIcons/Play.png"/> 
-<file href="assets/playbar/PlaybarIcons/Progress.png"/> 
-<file href="assets/playbar/PlaybarIcons/Rewind.png"/> 
-<file href="assets/playbar/PlaybarIcons/Shade.png"/> 
-<file href="assets/playbar/PlaybarIcons/ShadeSmall.png"/> 
-<file href="assets/playbar/PlaybarIcons/Stroke.png"/> 
-<file href="assets/playbar/PlaybarIcons/StrokeSmall.png"/> 
-<file href="assets/playbar/PlaybarIcons/TOC.png"/> 
-<file href="assets/playbar/PlaybarIcons/Thumb.png"/> 
-<file href="assets/playbar/PlaybarIcons/ThumbBase.png"/> 
-<file href="assets/playbar/playbarScript.js"/> 
 <file href="assets/toc/tocIcons/blankBookmark.png"/> 
 <file href="assets/toc/tocIcons/clear.png"/> 
 <file href="assets/toc/tocIcons/expander.png"/> 
@@ -220,10 +194,13 @@
 <file href="assets/toc/tocIcons/searchBtnSelect.png"/> 
 <file href="assets/toc/tocIcons/visited.png"/> 
 <file href="dr/img1.json"/> 
+<file href="dr/img2.json"/> 
+<file href="dr/img3.json"/> 
+<file href="dr/img4.json"/> 
 <file href="dr/imgmd.json"/> 
 <file href="dr/loading.gif"/> 
 <file href="goodbye.html"/> 
-<file href="index_scorm.html"/> 
+<file href="index.html"/> 
 <file href="project.txt"/> 
 <file href="Utilities.js"/> 
 		</resource>

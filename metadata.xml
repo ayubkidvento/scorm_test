@@ -122,8 +122,8 @@ END:VCARD
                 <displayStage>
           
                     <desired>
-                        <width>1366</width>
-                        <height>768</height>
+                        <width>1024</width>
+                        <height>627</height>
                         <fullscreen>no</fullscreen>
                     </desired>
                     <required>

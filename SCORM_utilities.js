@@ -1,10 +1,10 @@
 var CONFIG = {
 				COURSETITLE			: "Captivate E-Learning Course",
-				FILENAME			: "index_scorm.html",
+				FILENAME			: "index.html",
 				BGCOLOR				: "#f5f4f1",
 				FPVERSION			: "",
-				COURSE_WIDTH		: "1366",
-				COURSE_HEIGHT		: "768",
+				COURSE_WIDTH		: "1024",
+				COURSE_HEIGHT		: "627",
 				WMODE				: "",
 				TARGET				: "CaptivateContent",
 				RIGHTCLICKENABLED	: '',
